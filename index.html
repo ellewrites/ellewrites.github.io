@@ -1,8 +1,25 @@
 <html>
-
+<style>
+  ol { counter-reset: item }
+  li { display: block }
+  li:before { content: counters(item, ".") " "; counter-increment: item }
+</style>
 <body>
-  <h1>YOUR NAME</h1>
-  <p>Welcome to my website!</p>
+  <h1>How to Lose at Life</h1>
+  <h2>a textbook for all humans</h2>
+  <ol>
+    <li>Introduction</li>
+    <ol>
+      <li>Why?</li>
+      <li>Who?</li>
+      <li>How?</li>
+      <li>What?</li>
+    </ol>
+    <li>The Human Experience</li>
+    <li>Meta Interlude</li>
+    <li>Tutorials</li>
+    <li>Solutions</li>
+  </ol>
 </body>
 
 </html>
